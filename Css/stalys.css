@@ -110,7 +110,7 @@ button{
 @media only screen and (max-width: 720px) {
     
     #title h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
     #gota {  
         height: 20px;
@@ -126,7 +126,7 @@ button{
         margin-top: 10%;
     }
     h3 {
-        font-size: 14px; 
+        font-size: 16px; 
     }
     footer button {
         margin-top: 40px; 
