@@ -107,7 +107,7 @@ button{
 }
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
     
     #title h1 {
         font-size: 10px; /* Reduz o tamanho da fonte para dispositivos móveis */
