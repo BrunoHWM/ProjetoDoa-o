@@ -110,7 +110,7 @@ button{
 @media only screen and (max-width: 400px) {
     
     #title h1 {
-        font-size: 16px; /* Reduz o tamanho da fonte para dispositivos móveis */
+        font-size: 12px; /* Reduz o tamanho da fonte para dispositivos móveis */
     }
     #gota {  
         height: 40px;
@@ -126,7 +126,7 @@ button{
         margin-top: 10%; /* Ajusta a margem superior */
     }
     h3 {
-        font-size: 20px; /* Mantém o tamanho da fonte */
+        font-size: 16px; /* Mantém o tamanho da fonte */
     }
     footer button {
         margin-top: 40px; /* Ajusta a margem superior dos botões */
