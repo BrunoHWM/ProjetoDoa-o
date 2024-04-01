@@ -63,11 +63,11 @@ h3{
 #l1,
 #l2,#l3{
     color: rgb(255, 255, 255);
-    margin: 0 8px; 
     background-color:#840d0d;
     flex: 1; 
     text-align: center;
     font-size: 20px;
+    margin-left: 20px;
 }
 h2{
     color: rgb(255, 255, 255);
@@ -76,7 +76,6 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
 }
 footer #local {
     display: flex;
@@ -84,7 +83,7 @@ footer #local {
 }
 #localimg{
     margin-top: 4%;
-    margin-right: auto;
+    align-items: center;
     height: 80px;
     width: 80px;
 }
@@ -102,21 +101,49 @@ button{
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: transform 0.3s;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+footer button {
+    margin: 10px; 
+    transition: transform 0.3s; 
+}
+footer button:hover {
+    transform: translateY(-10px); 
+}
+#pq{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #8C0303;
+    border-radius: 20px;
+}
+ol{
+    margin-right: 40px;
+    list-style-type: none
+}
+#titlepq{
+    background-color:#c60e0e  ;
+}
+#eu{
+    text-align: center;
+}
+#beu{
+    background-color:#c60e0e ;
+}
+
 
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 720px) {
     
     #title h1 {
-        font-size: 14px;
+        font-size: 13px;
     }
     #gota {  
         height: 20px;
         width: 20px; 
-        margin-right: 10px;
-        margin-left: 4px;
+        margin-right: 8px;
+        margin-left: 14px;
     }
     #frase {
         font-size: 30px; 
@@ -158,5 +185,15 @@ button{
 
     footer button div {
         padding: 30px; 
+    }
+    #pq{
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
+        
+    }
+    #titlepq{
+        font-size: 18px;
+        background-color:#c60e0e  ;
     }
 }
