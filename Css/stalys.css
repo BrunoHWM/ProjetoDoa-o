@@ -246,12 +246,12 @@ body {
   
     /* Ajustes para botões dentro do rodapé */
     footer button {
-      margin: 50px;
+      margin: 20px;
     }
   
     /* Ajustes para o conteúdo dentro dos botões do rodapé */
     footer button div {
-      padding: 30px;
+      padding: 20px;
     }
   
     /* Ajustes para o elemento com id 'pq' */
