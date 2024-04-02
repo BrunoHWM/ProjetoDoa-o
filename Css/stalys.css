@@ -137,7 +137,7 @@ ol{
 @media only screen and (max-width: 720px) {
     
     #title h1 {
-        font-size: 30px;
+        font-size: 16px;
     }
     #gota {  
         height: 20px;
@@ -193,5 +193,10 @@ ol{
     #titlepq{
         font-size: 18px;
         background-color:#c60e0e  ;
+    }
+    #l1,
+    #l2,#l3{
+    flex: 1; 
+    text-align: center;
     }
 }
