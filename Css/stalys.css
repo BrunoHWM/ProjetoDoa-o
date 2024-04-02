@@ -1,100 +1,137 @@
-body{
+/*
+  Estilos para a página principal.
+
+  Autor: [Nome do autor]
+  Versão: 1.0
+*/
+
+/* Estilos para o corpo da página */
+body {
     background-color: #8DA6A6;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-h1{
+  }
+  
+  /* Estilos para os cabeçalhos */
+  h1 {
     margin-top: 90px;
     font-size: 40px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-#title{
+  }
+  
+  /* Estilos específicos para o elemento com id 'title' */
+  #title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     color: white;
     display: flex;
-}
-#gota{
+  }
+  
+  /* Estilos específicos para o elemento com id 'gota' */
+  #gota {
     margin-right: 20px;
     margin-top: 86px;
     height: 60px;
     width: 60px;
-}
-#frase{
+  }
+  
+  /* Estilos para a frase */
+  #frase {
     color: white;
     font-size: 30px;
     text-align: center;
-}
-#ul {
-    display:flex ;
+  }
+  
+  /* Estilos para a lista não ordenada */
+  #ul {
+    display: flex;
     margin-top: 50px;
     color: rgb(255, 255, 255);
     line-height: 28px;
-}
-#t1,
-#t2 {
+  }
+  
+  /* Estilos específicos para os elementos com id 't1' e 't2' */
+  #t1,
+  #t2 {
     background-color: #c60e0e;
-    flex: 1; 
-    margin: 0 8px; 
+    flex: 1;
+    margin: 0 8px;
     border-radius: 10px;
-    
-}
-h3{
+  }
+  
+  /* Estilos para os cabeçalhos h3 */
+  h3 {
     border-radius: 80px;
     color: white;
-    background-color:#8C0303;
+    background-color: #8C0303;
     text-align: center;
-}
-#sague{
+  }
+  
+  /* Estilos específicos para o elemento com id 'sague' */
+  #sague {
     height: auto;
-    max-width: 100%; 
-    text-align: center; 
-    margin-top: 50px; 
-
-}
-#sague img {
-    width: 100%; 
-    max-width: 100%; 
-}
-#l1,
-#l2,#l3{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilos específicos para as imagens dentro de #sague */
+  #sague img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Estilos específicos para os elementos com id 'l1', 'l2', 'l3' */
+  #l1,
+  #l2,
+  #l3 {
     color: rgb(255, 255, 255);
-    background-color:#840d0d;
-    flex: 1; 
+    background-color: #840d0d;
+    flex: 1;
     text-align: center;
     font-size: 20px;
     margin-left: 20px;
-}
-h2{
+  }
+  
+  /* Estilos para o cabeçalho h2 */
+  h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-footer #local {
+  }
+  
+  /* Estilos específicos para o rodapé */
+  footer #local {
     display: flex;
-    justify-content: space-around; 
-}
-#localimg{
+    justify-content: space-around;
+  }
+  
+  /* Estilos específicos para o elemento com id 'localimg' */
+  #localimg {
     margin-top: 4%;
     align-items: center;
     height: 80px;
     width: 80px;
-}
-#div1{
+  }
+  
+  /* Estilos específicos para o elemento com id 'div1' */
+  #div1 {
     text-align: center;
     margin-top: 30px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
-button{
+  }
+  
+  /* Estilos para botões */
+  button {
     background-color: #840d0d;
     margin-left: 10px;
     padding: 10px 20px;
@@ -102,101 +139,140 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 20px;
-}
-footer button {
-    margin: 10px; 
-    transition: transform 0.3s; 
-}
-footer button:hover {
-    transform: translateY(-10px); 
-}
-#pq{
+  }
+  
+  /* Estilos para botões dentro do rodapé */
+  footer button {
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  /* Efeito de hover para botões no rodapé */
+  footer button:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Estilos específicos para o elemento com id 'pq' */
+  #pq {
     color: white;
     font-size: 20px;
     text-align: center;
     line-height: 40px;
     background-color: #8C0303;
     border-radius: 20px;
-}
-ol{
+  }
+  
+  /* Estilos para listas ordenadas */
+  ol {
     margin-right: 40px;
-    list-style-type: none
-}
-#titlepq{
-    background-color:#c60e0e  ;
-}
-#eu{
+    list-style-type: none;
+  }
+  
+  /* Estilos específicos para o elemento com id 'titlepq' */
+  #titlepq {
+    background-color: #c60e0e;
+  }
+  
+  /* Estilos específicos para o elemento com id 'eu' */
+  #eu {
     text-align: center;
-}
-#beu{
-    background-color:#c60e0e ;
-}
-
-
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 720px) {
-    
+  }
+  
+  /* Estilos específicos para o elemento com id 'beu' */
+  #beu {
+    background-color: #c60e0e;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media only screen and (max-width: 720px) {
+    /* Ajustes de estilos para telas menores */
+  
+    /* Ajustes para o cabeçalho dentro do elemento com id 'title' */
     #title h1 {
-        font-size: 12px;
+      font-size: 12px;
     }
-    #gota {  
-        height: 20px;
-        width: 20px; 
+  
+    /* Ajustes para o elemento com id 'gota' */
+    #gota {
+      height: 20px;
+      width: 20px;
     }
+  
+    /* Ajustes para a frase */
     #frase {
-        font-size: 30px; 
-        margin-top: 20px; 
+      font-size: 24px;
+      margin-top: 20px;
     }
+  
+    /* Ajustes para a lista não ordenada */
     #ul {
-        flex-direction: column; 
-        margin-top: 10%;
+      flex-direction: column;
+      margin-top: 10%;
     }
+  
+    /* Ajustes para os cabeçalhos h3 */
     h3 {
-        font-size: 16px; 
+      font-size: 16px;
     }
+  
+    /* Ajustes para botões dentro do rodapé */
     footer button {
-        margin-top: 40px; 
+      margin-top: 40px;
     }
+  
+    /* Ajustes para os elementos com id 't1' e 't2' */
     #t1,
     #t2 {
-        margin: 0 8px; 
-        margin-top: 3%;
-        flex-direction: column;
+      margin: 0 8px;
+      margin-top: 3%;
+      flex-direction: column;
     }
-   #local{
-         flex-direction: column;
-   }
-   #localimg{
-        height: 40px;
-         width: 40px;
+  
+    /* Ajustes para o elemento com id 'local' */
+    #local {
+      flex-direction: column;
     }
-    #frase{
-        font-size: 24px;
+  
+    /* Ajustes para o elemento com id 'localimg' */
+    #localimg {
+      height: 40px;
+      width: 40px;
     }
-   h2{
-         font-size: 18px;
-   }
-
-      footer button {
-         margin: 50px;
+  
+    /* Ajustes para o cabeçalho h2 */
+    h2 {
+      font-size: 18px;
     }
-
+  
+    /* Ajustes para botões dentro do rodapé */
+    footer button {
+      margin: 50px;
+    }
+  
+    /* Ajustes para o conteúdo dentro dos botões do rodapé */
     footer button div {
-        padding: 30px; 
+      padding: 30px;
     }
-    #pq{
-        font-size: 14px;
-        text-align: center;
-        line-height: 30px;
-        
+  
+    /* Ajustes para o elemento com id 'pq' */
+    #pq {
+      font-size: 14px;
+      text-align: center;
+      line-height: 30px;
     }
-    #titlepq{
-        font-size: 18px;
-        background-color:#c60e0e  ;
+  
+    /* Ajustes para o elemento com id 'titlepq' */
+    #titlepq {
+      font-size: 18px;
+      background-color: #c60e0e;
     }
+  
+    /* Ajustes para os elementos com id 'l1', 'l2' e 'l3' */
     #l1,
-    #l2,#l3{
-    flex: 1; 
-    text-align: center;
+    #l2,
+    #l3 {
+      flex: 1;
+      text-align: center;
     }
-}
+  }
+  
