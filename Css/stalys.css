@@ -253,7 +253,10 @@ body {
     footer button div {
       padding: 20px;
     }
-  
+    footer button {
+        margin-top: 40px; 
+        text-align: center; /* Adicionando esta linha */
+      }
     /* Ajustes para o elemento com id 'pq' */
     #pq {
       font-size: 14px;
@@ -266,13 +269,6 @@ body {
       font-size: 18px;
       background-color: #c60e0e;
     }
-  
-    /* Ajustes para os elementos com id 'l1', 'l2' e 'l3' */
-    #l1,
-    #l2,
-    #l3 {
-      flex: 1;
-      text-align: center;
-    }
+
   }
   
