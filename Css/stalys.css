@@ -186,32 +186,20 @@ body {
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-
   .botão{
     width: 96%;
     height: 94%;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   /* Estilos para dispositivos móveis */
+
     @media only screen and (max-width: 720px) {
     /* Ajustes de estilos para telas menores */
   
     /* Ajustes para o cabeçalho dentro do elemento com id 'title' */
     #title h1 {
-      font-size: 12px;
+      font-size: 10px;
     }
   
     /* Ajustes para o elemento com id 'gota' */
@@ -304,10 +292,15 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
   }
+  /*configuração dos botões*/
   .botão{
     width: 90%;
     height: 90%;
     text-align:center;
+  }
+  /*tira o circulo*/
+  ol {
+    list-style-type:none;
   }
   }
   
