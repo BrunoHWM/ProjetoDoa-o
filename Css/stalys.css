@@ -153,7 +153,7 @@ body {
   /* Estilos para listas ordenadas */
   ol {
     margin-right: 40px;
-    list-style-type:disc;
+    list-style-type:none;
   }
   
   /* Estilos específicos para o elemento com id 'titlepq' */
@@ -170,7 +170,41 @@ body {
   #beu {
     background-color: #c60e0e;
   }
-  
+ /*altera o titulo sobre o pq doar*/
+  .titulo{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+   /*justifica o texto sobre pq doar*/
+  p{
+    text-align: justify ;
+    font-size: 18px;
+  }
+  #ul li:hover {
+    color: #ffffff; /* Troca a cor do texto para vermelho quando hover */
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .botão{
+    width: 96%;
+    height: 94%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Estilos para dispositivos móveis */
     @media only screen and (max-width: 720px) {
     /* Ajustes de estilos para telas menores */
@@ -258,5 +292,22 @@ body {
       background-color: #c60e0e;
     }
 
+    /*justifica o texto sobre pq doar*/
+    p{
+      text-align: justify ;
+      font-size: 16px;
+    }
+
+    /*altera o titulo sobre o pq doar*/
+  .titulo{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .botão{
+    width: 90%;
+    height: 90%;
+    text-align:center;
+  }
   }
   
