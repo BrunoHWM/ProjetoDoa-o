@@ -199,7 +199,7 @@ body {
   
     /* Ajustes para o cabeçalho dentro do elemento com id 'title' */
     #title h1 {
-      font-size: 10px;
+      font-size: 13px;
     }
   
     /* Ajustes para o elemento com id 'gota' */
@@ -288,8 +288,8 @@ body {
 
     /*altera o titulo sobre o pq doar*/
   .titulo{
-    font-size: 28px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
   }
   /*configuração dos botões*/
